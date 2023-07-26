@@ -1,14 +1,14 @@
-$--| GitHub HTML5 Pandoc Template" v2.2 | 2020/08/12 | pandoc v2.1.1
+$--| Kielipankki HTML5 Pandoc Template" | 2023/07/26 | pandoc v2.9.2
 <!DOCTYPE html>
 <!--
 ==============================================================================
-           "GitHub HTML5 Pandoc Template" v2.2 — by Tristano Ajmone
+                    "Language Bank HTML5 Pandoc Template"
 ==============================================================================
-Copyright © Tristano Ajmone, 2017-2020, MIT License (MIT). Project's home:
-
-- https://github.com/tajmone/pandoc-goodies
 
 The CSS in this template reuses source code taken from the following projects:
+
+- GitHub HTML5 Pandoc Template v2.2: Copyright © Tristano Ajmone (MIT):
+  https://github.com/tajmone/pandoc-goodies
 
 - GitHub Markdown CSS: Copyright © Sindre Sorhus, MIT License (MIT):
   https://github.com/sindresorhus/github-markdown-css
@@ -19,6 +19,7 @@ The CSS in this template reuses source code taken from the following projects:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The MIT License
 
+Copyright (c) 2023 Language Bank of Finland (kielipankki.fi)
 Copyright (c) Tristano Ajmone, 2017-2020 (github.com/tajmone/pandoc-goodies)
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 Copyright (c) 2017 GitHub Inc.
@@ -119,6 +120,10 @@ $---------------------------------------------------------------> include-before
 $for(include-before)$
 $include-before$
 $endfor$
+$-----------------------------------------------------------------> link to home
+$if(homepage-link)$
+<nav><a href="$homepage-link$">Back</a></nav>
+$endif$
 $-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> IF: title
 $if(title)$
 <header>
