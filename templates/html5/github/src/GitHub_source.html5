@@ -117,7 +117,7 @@ $-------------------------------------------------------------------------------
 <body>
 $-----------------------------------------------------------------> link to home
 $if(homepage-link)$
-<nav><a href="$homepage-link$">Back</a></nav>
+<nav><a href="$homepage-link$">Back to index page</a></nav>
 $endif$
 <article class="markdown-body">
 $---------------------------------------------------------------> include-before
