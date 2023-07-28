@@ -115,15 +115,15 @@ $endfor$
 $-------------------------------------------------------------------------------
 </head>
 <body>
+$-----------------------------------------------------------------> link to home
+$if(homepage-link)$
+<nav><a href="$homepage-link$">Back</a></nav>
+$endif$
 <article class="markdown-body">
 $---------------------------------------------------------------> include-before
 $for(include-before)$
 $include-before$
 $endfor$
-$-----------------------------------------------------------------> link to home
-$if(homepage-link)$
-<nav><a href="$homepage-link$">Back</a></nav>
-$endif$
 $-->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> IF: title
 $if(title)$
 <header>
