@@ -36,6 +36,23 @@
 //    the chain link icon on Headers, but it's no use to use because we use this
 //    sytlesheet with pandoc (which doesn't provide <a> anchors).
 
+nav {
+
+  margin-left: 1em;
+  position: absolute;
+  line-height: 45px;
+
+  a {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    color: #0366d6;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
 
 .markdown-body {
   -ms-text-size-adjust: 100%;

@@ -5,6 +5,21 @@
    Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
    Copyright (c) 2017 GitHub Inc.
 */
+nav {
+  margin-left: 1em;
+  position: absolute;
+  line-height: 45px;
+}
+nav a {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  color: #0366d6;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
 .markdown-body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
